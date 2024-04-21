@@ -10,4 +10,25 @@
         4. Object Pool
         5. Prototype
         6. Singleton
-  2. 
+  2. Structural Design Pattern
+       1. Adapter
+       2. Bridge
+       3. Composite
+       4. Decorator
+       5. Facade
+       6. Flyweight
+       7. proxy
+       8. Private Class data
+    
+   3. Behavioural Design Pattern
+        1. Chain of responsbility
+        2. Command
+        3. Interpreter
+        4. Iterator
+        5. Mediator
+        6. Memento
+        7. Observer
+        8. State
+        9. Starategy
+        10. Template
+        11. Visitor
