@@ -4,12 +4,13 @@
    https://sourcemaking.com/design_patterns
 
    1. Creational Design Pattern
-        1. Abstract Factory
-        2. Builder
-        3. Factory Method
-        4. Object Pool
-        5. Prototype
-        6. Singleton
+        1. Factory
+        2. Abstract Factory
+        3. Builder
+        4. Factory Method
+        5. Object Pool
+        6. Prototype
+        7. Singleton
   2. Structural Design Pattern
        1. Adapter
        2. Bridge
