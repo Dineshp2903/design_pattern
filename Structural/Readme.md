@@ -8,7 +8,9 @@ Here's a basic implementation of the Adapter pattern in Java:
 
 
 **Target** is the desired interface that the client code expects to work with.
+
 **Adaptee** is the existing class with an incompatible interface.
+
 **Adapter** is the class that bridges between Target and Adaptee. It implements the Target interface and internally uses an instance of Adaptee to adapt its methods
 
 ProductPriceCalculator is the existing interface for calculating the total cost of a product.
