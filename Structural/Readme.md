@@ -13,9 +13,13 @@ Here's a basic implementation of the Adapter pattern in Java:
 
 **Adapter** is the class that bridges between Target and Adaptee. It implements the Target interface and internally uses an instance of Adaptee to adapt its methods
 
-ProductPriceCalculator is the existing interface for calculating the total cost of a product.
-DefaultProductPriceCalculator is the existing implementation of the ProductPriceCalculator interface.
-CurrencyConverter is the interface of the new system that converts currency.
-EuroToUSDConverter is the implementation of the CurrencyConverter interface that converts Euros to USD.
-CurrencyConverterAdapter is the adapter class that adapts the CurrencyConverter interface to the ProductPriceCalculator interface.
-In the client code, we first demonstrate calculating the total cost using the default system. Then, we integrate the new currency conversion system using the adapter and calculate the total cost with prices in Euros, converted to USD.
+**ProductPriceCalculator** is the existing interface for calculating the total cost of a product.
+
+**DefaultProductPriceCalculator** is the existing implementation of the ProductPriceCalculator interface.
+
+**CurrencyConverter** is the interface of the new system that converts currency.
+
+**InrToUSDConverter** is the implementation of the CurrencyConverter interface that converts Euros to USD.
+
+**CurrencyConverterAdapter** is the adapter class that adapts the CurrencyConverter interface to the ProductPriceCalculator interface.
+
